@@ -1,0 +1,33 @@
+.movie-color {
+    background-image: linear-gradient(79deg, #e66248, #d234d2 50%, #095797);
+  }
+  
+  .movie-color-light {
+    background-color: rgb(183, 177, 177);
+  }
+  
+  .movie-header {
+    height: 15rem;
+  }
+  
+  .movie-middle {
+    height: 100%;
+    overflow: auto; 
+  }
+  
+  .movie-restriction {
+    max-height: 1.25rem;
+  }
+  
+  .movie-img {
+    width: 100%;
+    max-width: 7rem;
+  }
+
+  .synopsis {
+    font-weight: 700;
+  }
+
+  .h2 {
+    justify-content: center;
+  }

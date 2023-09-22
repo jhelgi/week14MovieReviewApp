@@ -1,0 +1,14 @@
+span.star:hover {
+    cursor: pointer;
+    fill: rgb(250, 212, 20);
+    color: rgb(250, 212, 20);
+}
+  
+span.star {
+    font-size: 2rem;
+}
+
+.star {
+    color: rgb(250, 212, 20);
+    margin-left: .5rem;
+}
