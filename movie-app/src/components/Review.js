@@ -9,7 +9,7 @@ export default function Review(props) {
         {props.review.user} ({props.review.date})<br/><h6>Rating: {props.strOfStars}</h6>
       </div>
       <div className="col-sm-6">
-        <button className="btn btn-danger mt-3 mb-2 btn-sm right-aligned" onClick={() => props.removeReview(props.review.reviewId)}>
+        <button className="btn btn-danger mt-3 mb-2 btn-sm" onClick={() => props.removeReview(props.review.reviewId)}>
           Delete
         </button>
       </div>
